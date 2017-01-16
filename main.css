@@ -1,0 +1,15 @@
+body{
+background-color: #282523;
+color: white;
+text-align: center;
+font-family: monospace;
+}
+
+ul{
+  list-style-position: inside;
+}
+#beer-friends{
+  border: none;
+  width: 200px;
+  height: auto;
+}
