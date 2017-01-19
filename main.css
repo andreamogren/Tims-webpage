@@ -3,13 +3,47 @@ background-color: #282523;
 color: white;
 text-align: center;
 font-family: monospace;
+font-size: 20px;
+}
+
+h1 {
+font-size: 40px;
+}
+
+h2{
+  font-size: 24px;
+  color: #CC99CC;
+}
+
+nav{
+color: white;
+font-size: 24px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: purple;
 }
 
 ul{
   list-style-position: inside;
 }
-#beer-friends{
+
+#theme-text{
+margin-right: auto;
+margin-left: auto;
+display: block; 
+}
+
+#theme{
+  color: purple;
+}
+
+#drink-slide{
   border: none;
-  width: 200px;
+  width: 500px;
   height: auto;
 }
