@@ -3,19 +3,20 @@
 <html>
   <head>
     <link href="main.css" rel=stylesheet type=text/css>
-    <title>Timmy's awesome bar</title>
+    <title>Off the Grid</title>
 
-    <!-- ... [OTHER INCLUDES] ... -->
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
-
     <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
     <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
     <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
 
+    <script type="text/javascript"
+               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5L7YN13v4kvqDcbWwCP6MOO5i2uyKTyY"></script>
   </head>
+
   <body>
-    <h1>The Awesome Bar</h1>
+    <h1>Off the Grid</h1>
     <img src="nalen-bar.jpg" alt="Nalen bar">
     <nav>
       <a href="#Drinks">Drinks and theme</a>
@@ -66,7 +67,8 @@
 
     <h2 id="Location">Location</h2>
     <p>Regeringsgatan 74, 111 39 Stockholm</p>
-    <img src="nalenkarta.jpg"></img>
+    <script type='text/javascript' src="js/googlemaps.js"></script>
+    <div id="map"></div>
 
     <h2 id="Opening-hours">Opening hours</h2>
     <p>Wednesday: Thursday 17 - 23</p>
