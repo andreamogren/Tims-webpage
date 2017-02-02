@@ -7,7 +7,7 @@ font-size: 20px;
 }
 
 h1 {
-font-size: 40px;
+font-size: 45px;
 }
 
 h2{
@@ -32,10 +32,17 @@ ul{
   list-style-position: inside;
 }
 
+#map_canvas{
+  height: 100%;
+  margin: 0;
+  color: black;
+  margin: auto;
+}
+
 #theme-text{
 margin-right: auto;
 margin-left: auto;
-display: block; 
+display: block;
 }
 
 #theme{

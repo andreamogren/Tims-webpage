@@ -2,17 +2,16 @@
 
 <html>
   <head>
-    <link href="main.css" rel=stylesheet type=text/css>
+    <link href="css/main.css" rel=stylesheet type=text/css>
     <title>Off the Grid</title>
-
+    <script type="text/javascript"
+               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5L7YN13v4kvqDcbWwCP6MOO5i2uyKTyY"></script>
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
     <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
     <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
     <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
-
-    <script type="text/javascript"
-               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5L7YN13v4kvqDcbWwCP6MOO5i2uyKTyY"></script>
+    <link rel="icon" type="image/png" href="images/grid.png">
   </head>
 
   <body>
@@ -27,7 +26,7 @@
     </nav>
     <br>
     <br>
-    <h2 id="Drinks">Drinks and this month's theme!</h2>
+    <h2 id="Drinks">Drinks!</h2>
 
     <script type="text/javascript">
 
@@ -38,12 +37,12 @@
     </script>
 
 
-    <div id="gallery" style="display:none;">
+    <div id="gallery" style="display: block; margin: auto;">
 
-      <img alt="Youtube Without Images"
+      <img alt="Margarita"
   			 data-type="youtube"
   			 data-videoid="SIjgmTOJe2c"
-  			 data-description="Youtube video description">
+  			 data-description="Margarita: 4 cl lime juice, 3 cl Tequila, 2 cl Syrup, 1 cl Cointreau - 100 kr">
 
       <img alt="Youtube Without Images"
           data-type="youtube"
@@ -52,23 +51,13 @@
 
     </div>
 
-    <ul>
-      <li>Margarita 100 kr
-      <li>Sami da sexy pony 105 kr
-      <li> A glas of white wine 85 kr
-    </ul>
-
-    <img id="drink-slide" width="500" height="500" src="https://media.giphy.com/media/PvZ2jLjFofH4Q/giphy.gif"></img>
-
-    <p><strong id="theme">This month's theme is:</strong> <a href="http://www.imdb.com/title/tt0094889/">Cocktail</a>, the movie from 1988!
-      <br>Bring your most 80's clothes and your aviator glasses. Let's hit it!</p>
-
     <br>
 
     <h2 id="Location">Location</h2>
-    <p>Regeringsgatan 74, 111 39 Stockholm</p>
+    <p>David Bagaresgatan 19, 111 38 Stockholm</p>
+    <div id="map_canvas" style="width: 500px; height: 400px;"></div>
     <script type='text/javascript' src="js/googlemaps.js"></script>
-    <div id="map"></div>
+
 
     <h2 id="Opening-hours">Opening hours</h2>
     <p>Wednesday: Thursday 17 - 23</p>
@@ -76,10 +65,9 @@
     <p>Sunday: 17 - 22</p>
 
     <h2 id="About">About</h2>
-    <p>Wanna meet the sexiest bartender alive? Well you've come to the right place!
-    Timmy is here, never fear!
-    Come to The Awesome Bar, Tim and Sean promise to whip out a night you'll never forget.
-    Pants optional.</p>
+    <p>Are you drowning in notifications and a fruitless pursuit of likes? We have the solution for you! Escape the digital reality for few hours at Off the grid, a bar with cell-phone jammers.
+    There is a landline, you know, one of those old-fashioned phones stuck to the wall that died with the Y2K.
+    Tim and Sean promise to whip out a night you'll never forget. Pants optional.</p>
 
     <h2 id="Contact">Contact</h2>
     <p>Timmy, bar manager and cupcake maker: @timmytimtim</p>
