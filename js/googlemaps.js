@@ -1,6 +1,6 @@
 var mapOptions = {
     center: new google.maps.LatLng(59.337238,18.0676545),
-    zoom: 12,
+    zoom: 15,
     mapTypeId: google.maps.MapTypeId.ROADMAP
 };
 var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
